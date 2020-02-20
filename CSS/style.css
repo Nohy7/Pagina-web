@@ -1,0 +1,111 @@
+body{
+    /* manecisallas del reloj */
+    margin: 0 0 0 0;
+    padding: 0;
+}
+header{
+width: 100%;
+background-color: black;
+}
+
+.titulo{
+    background-color: blueviolet;
+    height: 30px;
+}
+
+nav{
+    background-color: aqua;
+
+}
+
+.d1{
+    display: flex;
+    justify-content: center;
+}
+
+.d{
+    margin: 15px;
+}
+
+.p1{
+    width: 70vw;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+h1:hover,h2:hover{
+    color: hotpink;
+}
+
+ /* . -> Class
+    # -> Id */
+
+.p_size{
+    font-size: 25px;
+    color: gray;
+}
+ .navbar{
+    display: flex;
+ }
+ nav ul li{
+     margin-right: 20px;
+     list-style: none;
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     color: honeydew;
+ }
+
+
+ nav ul li a:hover{
+     color: rgb(80, 45, 240);
+     cursor: progress;
+ }
+
+.caja{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 15px;
+}
+
+.container{
+    border: black 3px solid;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+.c1{background-color: blue; order: 1;}
+.c2{background-color: red;}
+.c3{background-color: yellow;}
+.c4{background-color: green;}
+.c5{background-color: purple;}
+.c6{background-color: orange;}
+.c7{background-color: yellowgreen;}
+.c8{background-color: blueviolet;}
+.c9{background-color: orangered;}
+.c10{background-color: royalblue;}
+
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+    body{
+        background-color: teal;
+    }
+}
